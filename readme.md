@@ -9,7 +9,8 @@ Usage:
 Setup:
 
     gem install unicorn --no-ri --no-rdoc
-    curl https://raw.github.com/jaustinhughey/unicorn-status/master/unicorn_status.rb > ~/unicorn_status.rb
+    curl https://raw.githubusercontent.com/azhao1981/unicorn-status/master/unicorn_status.rb > ~/unicorn_status.rb
+    bundle exec ~/unicorn_status.rb ./tmp/sockets/unicorn.sock 3
 
 Bugs/Contributions:
 Pull requests welcome. Enhancements, bugfixes, whatever, it's all good. Fork, do work, test and submit a pull request.
